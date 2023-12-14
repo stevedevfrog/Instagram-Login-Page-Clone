@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+    font-size: 14px;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border: 1px solid lightgrey;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container > img {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* Login form */
+.login-container-form > form {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+/* Login input fields */
+input[type="text"], input[type="password"] {
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    background-color: #f1f1f1;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/* Log in button */
+input[type="submit"] {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 28px;
+    font-weight: 550;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    border: 1px solid darkslategray;
+}
+
+/* Divider - container */
+.login-container-divider {
+    display: flex;
+    margin: 5px 0;
+}
+
+/* Dividing element */
+.lo-cont-divider-element {
+    width: 110px;
+    border-top: 1px solid gray;
+    margin: 8px;
+}
+
+/* Text or in between dividers */
+.divider-or-text{
+    color: gray;
+    font-size: 15px;
+}
+
+/* Login with facebook container */
+.login-with-facebook{
+    padding: 10px 0;
+}
+
+/* Facebook logo image */
+.login-with-facebook > button > img {
+    margin-right: 5px;
+    width: 15px;
+}
+
+/* Login in with Facebook button and text */
+.login-with-facebook > button {
+    border: none;
+    background-color: white;
+    color: darkblue;
+    font-weight: 550;
+}
+
+/* Forgot password text */
+.login-forgot-passwd {
+    margin-top: 5px;
+    font-size: 14px;
+    color: darkslategray;
+}
+
+.sign-up-container {
+    background-color: white;
+    width: 350px;
+    height: 20px;
+    padding: 30px 0;
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+.sign-up-link {
+    font-weight: 900;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+/* Mobile apps links */
+.links-container {
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Get the app. text just below sign up form */
+.links-container > p {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* Mobile app image */
+.links-container-image {
+    height: 40px;
+} 
+
+/* Main footer container */
+.footer {
+    margin: 20px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-links {
+    word-spacing: 10px;
+    padding-bottom: 10px;
+}
+
+/* Language selector */
+.footer-owner > a {
+    margin-right: 5px;
+}
+
+/* Copyrights ex. 2022 Instagram... */
+.footer-owner > p {
+    color: darkgray;
+    display: inline;
+}
+
+/* On screens that are at least 964px or more */
+@media screen and (min-width: 964px) {
+    .main-container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .image-container {
+        width: 350px;
+        height: 560px;
+        margin-top: 30px;
+        margin-right: 20px;
+        background: center / 100% url(images/smartphone.png);
+        background-repeat: no-repeat;
+    }
+  }
